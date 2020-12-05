@@ -171,14 +171,14 @@ header{
   }
   nav a{
     text-decoration:none;
-    color:white;
+    color:grey;
     font-size:14px;
     padding:12px 30px;
     transition:.3s;
   }
   nav a:hover{
     color:solid black;
-    background:white;
+    background:grey;
   }
 .box1{background-color: teal;}
 .box2{background-color:gold;}
@@ -192,7 +192,10 @@ header{
 .box10{background-color: dodgerblue;}
 
 .box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9,.box10{display:inline-block;
-    height:80px;
-    width:90px;
+    height:100px;
+    width:100px;
     display:flex;
-    justify-content:space-evenly;}
+    justify-content:space-around;
+    flex-direction: row;
+    align-content: space-around;
+    flex-wrap: wrap;}
